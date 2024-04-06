@@ -110,3 +110,9 @@ button{
     border-radius: 10px;
     height: 20px;
 }
+
+
+.FinalResult{
+    font-size: 123px;
+    font-weight: bold;
+}

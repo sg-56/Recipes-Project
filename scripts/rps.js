@@ -55,7 +55,7 @@ buttons.append(button3);
 
 const buttonsList = document.querySelectorAll("button");
 
-console.log(buttonsList);
+//console.log(buttonsList);
 
 let playerScore = 0;
 let computerScore = 0;
@@ -100,13 +100,13 @@ const playerChoice = buttonsList.forEach(function(button){
 
         console.log(resulttexts); 
         if(playerScore > computerScore){
-          FinalResult.textContent = "Player Wins";
+          FinalResult.textContent = "Player Wins!!!";
         }
         else if(computerScore > playerScore){
-          FinalResult.textContent = "Computer Wins";
+          FinalResult.textContent = "Computer Wins!!";
         }
         else{
-          FinalResult.textContent = "It is a tie";
+          FinalResult.textContent = "It is a tie!!!";
         }
 
         resulttexts.appendChild(FinalResult);
@@ -117,7 +117,7 @@ const playerChoice = buttonsList.forEach(function(button){
         RetryButton.textContent = "Retry";
         RetryButton.classList.add("RetryButton");
 
-        
+
         if(!status){
           buttons.append(RetryButton);
           status = true;
