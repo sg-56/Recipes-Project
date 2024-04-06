@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-color: beige;
+    background-color: #f0f0f0;
 }
 
 
@@ -73,4 +73,40 @@ strong{
 #ftext:hover {
     transform: scale(1.2);
     transition:ease-in-out,1s;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+    align-items: center;
+    height: 300px;
+    flex-direction: row;
+
+}
+button{
+    align-self: center;
+    width: 14%;
+    height: 78px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: rosybrown;
+    border-radius: 10px;
+    color: #38135e;
+}
+
+#results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+}
+
+.roundresult{
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    height: 20px;
 }
